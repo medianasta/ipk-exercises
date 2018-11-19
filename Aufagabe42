@@ -1,0 +1,21 @@
+
+#include<bits/stdc++.h> 
+
+using namespace std;
+
+int main(int baseValue, int expValue)
+{
+
+	int result = pow(baseValue, expValue);
+	cout << "Enter Base" << endl;
+	cin >> baseValue;
+	cout << "Enter Exponent" << endl;
+	cin >> expValue;
+	// Storing the answer in result. 
+	int result = pow(baseValue, expValue);
+	cout << result << endl;
+
+	system("pause");
+
+	return 0;
+}
